@@ -24,12 +24,12 @@ const markdownInput = `
 # nyc [#4169e1]
 ## traditional compute [#808080] (just another cloud)
 ## data & ai [#4169e1] (differentiator)
-### GenAI - MyCity [#4cd038] (went well)
-#### Microsoft [#212529] (head-to-head)
-#### CE Engagement [#FF0000] (went well)
-#### Showcasing Platform [#212529] (Demo)
-### Vision AI [#212529] (Computer Vision)
-### New Node [#212529] (Innovation)
+### genai - mycity [#4cd038] (went well)
+#### microsoft [#212529] (head-to-head)
+#### ce engagement [#212529] (6 weeks)
+#### platform strengths [#212529]
+### toilets in CAD [#4cd038] (vision ai)
+### track non-conformities [#ffbf00] (rit)
 `;
 
 const parseMarkdown = (markdown: string): NodeDataType => {
