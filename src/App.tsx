@@ -32,6 +32,7 @@ const markdownInput = `
 ##### 311 [#212529]
 ### toilets in CAD [#4cd038] (vision ai)
 ### track non-conformities [#ffbf00] (rit)
+### ai data scientist [#212529] (fdny and sca)
 `;
 
 const parseMarkdown = (markdown: string): NodeDataType => {
