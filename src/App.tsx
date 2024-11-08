@@ -27,7 +27,9 @@ const markdownInput = `
 ### genai - mycity [#4cd038] (went well)
 #### microsoft [#212529] (head-to-head)
 #### ce engagement [#212529] (6 weeks)
+##### nyc.gov search [#212529] (led to)
 #### platform strengths [#212529]
+##### 311 [#212529]
 ### toilets in CAD [#4cd038] (vision ai)
 ### track non-conformities [#ffbf00] (rit)
 `;
