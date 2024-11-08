@@ -21,12 +21,12 @@ interface NodeDataType {
 }
 
 const markdownInput = `
-# NYC [#4169e1]
-## Traditional IaaS [#212529] (Infrastructure)
-## Data and AI [#212529] (Analytics)
-### GenAI - MyCity [#212529] (AI Platform)
-#### Microsoft [#212529] (Partner)
-#### CE Engagement [#FF0000] (Strategy)
+# nyc [#4169e1]
+## traditional compute [#808080] (just another cloud)
+## data & ai [#4169e1] (differentiator)
+### GenAI - MyCity [#4cd038] (went well)
+#### Microsoft [#212529] (head-to-head)
+#### CE Engagement [#FF0000] (went well)
 #### Showcasing Platform [#212529] (Demo)
 ### Vision AI [#212529] (Computer Vision)
 ### New Node [#212529] (Innovation)
@@ -257,7 +257,7 @@ function App() {
   }, [expandedNodes, setNodes, setEdges, mindMapData, findNodeData]);
 
   return (
-    <div style={{ width: '100vw', height: '100vh' }}>
+    <div style={{ width: '100vw', height: '100vh', position: 'relative' }}>
       <ReactFlowProvider>
         <ReactFlow
           nodes={nodes}
@@ -280,6 +280,19 @@ function App() {
           <Controls />
         </ReactFlow>
       </ReactFlowProvider>
+      <div
+        style={{
+          position: 'absolute',
+          bottom: '20px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          color: '#666',
+          fontSize: '14px',
+          fontFamily: 'Arial, sans-serif',
+        }}
+      >
+        this app was built by anand kumar (@ranand12)
+      </div>
     </div>
   );
 }
