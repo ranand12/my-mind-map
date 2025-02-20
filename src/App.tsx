@@ -28,8 +28,8 @@ const markdownInput = `
 ### BuildWithAI [#212529] (what's next)
 #### Community  [#212529] 
 #### Tech Itch  [#212529] 
-## RIT [#4cd038]
-## PSO [#4cd038]
+## RIT [#4cd038] (for more involved prototypes)
+## PSO/Partner [#4cd038] (for production)
 `;
 
 const parseMarkdown = (markdown: string): NodeDataType => {
