@@ -21,18 +21,15 @@ interface NodeDataType {
 }
 
 const markdownInput = `
-# nyc [#4169e1]
-## traditional compute [#808080] (just another cloud)
-## data & ai [#4169e1] (differentiator)
-### genai - mycity [#4cd038] (went well)
-#### microsoft [#212529] (head-to-head)
-#### ce engagement [#212529] (6 weeks)
-##### nyc.gov search [#212529] (led to)
-#### platform strengths [#212529]
-##### 311 [#212529]
-### toilets in CAD [#4cd038] (vision ai)
-### track non-conformities [#ffbf00] (rit)
-### ai data scientist [#ffbf00] (fdny and sca)
+# ShowDontTell [#4169e1]
+## CE [#4cd038]
+#### Quick Custom Demos [#808080] (boring bland demos)
+#### Customer Visualization [#808080] (quick win)
+##### BuildWithAI [#212529] (what's next)
+###### Community  [#212529] 
+###### Tech Itch  [#212529] 
+## RIT [#4cd038]
+## PSO [#4cd038]
 `;
 
 const parseMarkdown = (markdown: string): NodeDataType => {
