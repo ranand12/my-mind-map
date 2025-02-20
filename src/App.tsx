@@ -26,8 +26,8 @@ const markdownInput = `
 ### Quick Custom Demos [#808080] (boring bland demos)
 ### Customer Visualization [#808080] (quick win)
 ### BuildWithAI [#212529] (what's next)
-##### Community  [#212529] 
-##### Tech Itch  [#212529] 
+#### Community  [#212529] 
+#### Tech Itch  [#212529] 
 ## RIT [#4cd038]
 ## PSO [#4cd038]
 `;
