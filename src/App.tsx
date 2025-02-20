@@ -26,7 +26,7 @@ const markdownInput = `
 ### Quick Custom Demos [#808080] (boring bland demos)
 #### First party AI models [#FFA500] (how?)
 #### English language [#FFA500] (must be complicated?)
-#### Super Quick [##FFA500] (must be time consuming?)
+#### Super Quick [#FFA500] (must be time consuming?)
 ### Customer Visualization [#808080] (quick win)
 ### BuildWithAI [#212529] (what's next)
 #### Community  [#212529] 
