@@ -24,7 +24,7 @@ const markdownInput = `
 # ShowDontTell [#4169e1]
 ## CE [#4cd038]
 ### Quick Custom Demos [#808080] (boring bland demos)
-#### First party AI models [#FFA500] (how?)
+#### Vertex AI models [#FFA500] (how?)
 #### English language [#FFA500] (must be complicated?)
 #### Super Quick [#FFA500] (must be time consuming?)
 ### Customer Visualization [#808080] (quick win)
