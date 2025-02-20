@@ -23,11 +23,11 @@ interface NodeDataType {
 const markdownInput = `
 # ShowDontTell [#4169e1]
 ## CE [#4cd038]
-#### Quick Custom Demos [#808080] (boring bland demos)
-#### Customer Visualization [#808080] (quick win)
-##### BuildWithAI [#212529] (what's next)
-###### Community  [#212529] 
-###### Tech Itch  [#212529] 
+### Quick Custom Demos [#808080] (boring bland demos)
+### Customer Visualization [#808080] (quick win)
+### BuildWithAI [#212529] (what's next)
+##### Community  [#212529] 
+##### Tech Itch  [#212529] 
 ## RIT [#4cd038]
 ## PSO [#4cd038]
 `;
